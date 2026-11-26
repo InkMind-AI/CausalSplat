@@ -1,0 +1,65 @@
+__pycache__/
+*.py[cod]
+*.so
+.Python
+.env
+.venv/
+venv/
+
+# Generated pipeline outputs (created at runtime under repo root)
+saved_masks/
+
+# Dataset tree (symlink to your local data root; see casual-main/data)
+casual-main/data
+
+# Training artifacts (user-generated, under data/)
+**/gs/
+**/point_cloud/iteration_*/
+
+# Private runtime artifacts, datasets, models, and exports
+logs/
+exports/
+data/
+datasets/
+weights/
+models/
+checkpoints/
+output/
+outputs/
+build/
+dist/
+*.egg-info/
+*.log
+*.pid
+*.lock
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.onnx
+*.bin
+*.ply
+*.npy
+*.npz
+*.zip
+*.tar
+*.tar.gz
+*.o
+*.env
+.env.*
+!.env.example
+
+# Project page assets
+.DS_Store
+*.pdf
+CausalSplat/
+static/images/01.png
+static/images/02.png
+static/images/qualitative_comparison_improved_01.png
+static/images/page_*.png
+
+# Local-only experiment scripts
+/scripts/
+/casual-main/compare_cluster_to_reference.py
+
+/vlm_lifecycle.py
