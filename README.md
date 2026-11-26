@@ -1,13 +1,7 @@
-# CausalSplat
+# [MM 2026] CausalSplat: Towards Comprehensive Hierarchical Reasoning in 3D Gaussian Splatting
 
 [Project Page](https://inkmind-ai.github.io/CausalSplat/)
 
-Language-grounded 3D scene understanding and object reasoning with Gaussian Splatting.
-
-```text
-3DGS reconstruction -> SAM masks -> affinity features -> object clustering
--> multi-view descriptions -> 3D scene graph -> language reasoning
-```
 
 ## Installation
 
