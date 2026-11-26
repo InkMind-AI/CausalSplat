@@ -75,3 +75,26 @@ When reporting results, specify the parameters, model, and evaluation protocol.
 ## Acknowledgments and License
 
 Built with 3D Gaussian Splatting, SAM-based segmentation, and bundled third-party libraries. Existing copyright notices and attributions are retained. Follow the applicable terms for the code, datasets, and model checkpoints.
+
+## Citation
+
+If you use CausalSplat, its code, or the Causal-LERF and Causal-ScanNet benchmarks in your research, please cite our paper:
+
+```bibtex
+@inproceedings{10.1145/3767308.3835829,
+  author = {Ding, Jiayu and Song, Meilu and Chen, Yun and Gao, Wei and Li, Ge},
+  title = {CausalSplat: Towards Comprehensive Hierarchical Reasoning in 3D Gaussian Splatting},
+  booktitle = {Proceedings of the 34th ACM International Conference on Multimedia},
+  year = {2026},
+  pages = {1557--1565},
+  numpages = {9},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  isbn = {9798400722134},
+  doi = {10.1145/3767308.3835829},
+  url = {https://doi.org/10.1145/3767308.3835829},
+  location = {Rio de Janeiro, Brazil},
+  series = {MM '26},
+  keywords = {3d gaussian splatting, reasoning segmentation}
+}
+```
